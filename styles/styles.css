@@ -19,6 +19,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   text-align: left;
 	color: white;
+	font-size: 1.5rem;
 	font-weight: 400;
   line-height: 2.5rem;
 	background-image: linear-gradient(-140deg, #090343 0%, #370554 100%);
@@ -77,8 +78,9 @@ footer  {
 
 .introduction h2 {
 	display: inline-block;
+	color: #2A0650;
 	text-align: left;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	line-height: 3.5rem;
 }
 #case-studies p {
@@ -157,10 +159,4 @@ aside{
   display:grid;
   grid-template-columns: 70% 30%;
   padding: 80px 0;
-}
-
-li:nth-child(odd){
-    font-weight:900;
-    font-size: 1.2rem;
-    text-decoration: underline;
 }

@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+#hero-header {
+	height: 678px;
+	border: 1px solid #090343;
+  background: url(../images/hero.jpg) no-repeat center center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+	color: white;
+	font-weight: 400;
+  line-height: 2rem;
+	background-image: linear-gradient(-140deg, #090343 0%, #370554 100%);
+	margin: 0 auto;
+}
+
+footer  {
+  display:inline-block;
+  margin: auto;
+  margin-top: 96px;
+}
+.container {
+	width: 1200px;
+	margin: auto;
+	justify-content: center;
+	text-align: left;
+	display: block;
+	margin-top: 96px;
+}
+.logo {
+	float: left;
+	width: 200px;
+	display: block;
+}
+.nav {
+	display: inline-block;
+  color: #2A0650;
+}
+.nav-links {
+	display: inline-block;
+	float: right;
+  font-size: 1.2rem;
+  color: #2A0650;
+}
+.nav-links li a {
+  color: #2A0650;
+}
+.introduction {
+	display: inline-block;
+	float: left;
+  width: 75%;
+	margin: 96px 0px 24px 0px;
+}
+
+.experience {
+	display: inline-block;
+	float: left;
+  margin: 0px 0px 24px 0px;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 70% 30%;
+  padding: 80px 0;
+}
+
+.introduction h2 {
+	display: inline-block;
+	text-align: left;
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+#case-studies p {
+  width: 65%;
+}
+.about-button{
+	color: #2A0650;
+	border: 1px solid #fffff0;
+	background-color: #ffffff;
+	border-radius: 4px;
+	padding: 8px 16px;
+	margin-left: 24px;
+}
+
+h2 {
+	font-weight: 200;
+  font-size: 3rem;
+}
+h3 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+a {
+	color: #F4A164;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+	color: #F4A164;
+	float: left;
+}
+body li a {
+	display: inline-block;
+	list-style: none;
+	color: #F4A164;
+	text-align: left;
+	text-decoration: none;
+	transition: .1s;
+  padding: 8px 16px;
+}
+li a:hover {
+	border-radius: 4px;
+	color: #F4A164;
+
+}
+
+.about-button:hover{
+	color: #2A0650;
+  box-shadow: 0 1px 20px 0 #21044B;
+}
+
+.about-button li a:hover {
+	border-radius: 4px;
+	color: #F4A164;
+  box-shadow: 0 1px 20px 0 #21044B;
+}
+.gallery {
+	display: flex;
+	justify-content: space-between;
+}
+.work{
+  position:relative;
+  padding: 24px 0px;
+}
+
+
+footer{
+  display:block;
+  position: relative;
+}
+
+aside{
+  float: right;
+}
+.grid-container{
+  display:grid;
+  grid-template-columns: 70% 30%;
+  padding: 80px 0;
+}
+
+li:nth-child(odd){
+    font-weight:900;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
